@@ -29,4 +29,7 @@ alias mv='mv -iv'
 alias ping='ping -c 5'
 alias rm='rm -iv'
 
+# run emacs in the terminal window when run from the command line
+alias emacs="emacs -nw"
+
 # eof
