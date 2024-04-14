@@ -7,7 +7,7 @@ alias now='date --utc +"%T"'
 alias today='date --utc +"%F"'
 
 # use better commands
-alias diff='colordiff'
+alias diff='colordiff -y'
 alias more='less'
 alias vi='vim'
 
