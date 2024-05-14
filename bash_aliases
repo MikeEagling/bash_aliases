@@ -12,9 +12,18 @@ alias more='less'
 alias vi='vim'
 
 # pretty directory listings - these override the ones in .bashrc
+# if they have been enabled (eg: in Ubuntu) or add them if they
+# are still commented out (eg: in LMDE)
 alias la='ls -A'
 alias ll='ls -FAhl'
 alias ls='ls --color=auto --group-directories-first'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+# do the same with grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 # set sane defaults
 alias chgrp='chgrp --preserve-root'
